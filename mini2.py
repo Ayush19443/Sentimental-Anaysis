@@ -25,10 +25,10 @@ class SA:
         
     
     def Data(self):
-        consumer_key = '6ezxMc85nqfAleHzDwSH0jsFV'
-        consumer_secret = 'Wg73disrWIn4DMEG5S35L1tJJSmrstC1f99HzmtXDccdJkAVgn'
-        access_token = '870327487917633536-BPPxFDgURttwFtbS9wKMPZFoJ7TOZ1k'
-        access_token_secret = 'pRGYIuXVdjsuHsghAAuzpWOMBJGRZ9b2PaB7BloQcOZaT'
+        consumer_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        consumer_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        access_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx-xxxxxxxxxx'
+        access_token_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)  
         auth.set_access_token(access_token, access_token_secret) 
         api = tweepy.API(auth) 
